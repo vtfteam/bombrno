@@ -6,6 +6,9 @@ Load order in `index.html` matters: each file uses globals of the ones before it
 
 Run: `python3 -m http.server -d . 8000` → http://localhost:8000 (or open `index.html`).
 
+Published: repo `vtfteam/bombrno`, GitHub Pages serves `main` from the repo root (no workflow;
+`.nojekyll` skips Jekyll). Every push to `main` goes live, so run `node tools/check-maps.js` first.
+
 ## Where things are
 - Tuning (physics, damage, bomb, controls, emoji palette): `src/config.js`.
 - Maps (layout, spawns, movers, theme, special): `src/maps.js` — only the left half of each grid is
