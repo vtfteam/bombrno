@@ -1,0 +1,4 @@
+.claude/settings.local.json
+temp/
+.DS_Store
+.playwright-mcp/
