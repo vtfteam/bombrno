@@ -6,7 +6,9 @@ Každá mapa má vlastní specialitu podle brněnských pověstí a reálií.
 
 ## Spuštění
 
-Otevřete `index.html` v prohlížeči. Nic se neinstaluje ani nestahuje.
+Hrát online: https://vtfteam.github.io/bombrno/
+
+Lokálně: otevřete `index.html` v prohlížeči. Nic se neinstaluje ani nestahuje.
 
 Pokud prohlížeč soubory z disku blokuje, spusťte v adresáři hry malý server
 (`python3 -m http.server 8000`) a otevřete http://localhost:8000.
